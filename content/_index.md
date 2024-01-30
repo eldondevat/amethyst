@@ -1,27 +1,29 @@
 ---
-title: 💜 Welcome to Amethyst!
+title: 💜 Welcome to Eldon's technology notebook!!
 enableToc: false
 ---
 
-## What is Amethyst?
-Amethyst is a free [Obsidian Publish](https://obsidian.md/publish) alternative that is derived from two existing projects, [Quartz](https://quartz.jzhao.xyz/) and [Hugo Book](https://github.com/alex-shpak/hugo-book).
+## Why is this here?
 
-The purpose of Amethyst is to provide a space to publish more structured notes created in Obsidian that may not fit in the [digital garden](https://joelhooks.com/digital-garden/) archetype that is well-supported by existing projects.
+After years of being relatively quiet on the searchable portion of the internet, I would like to be more active in
+sharing some of the techniques I have found while tinkering with technology. I have contributed patches to projects
+such as wireshark and the terraform AWS provider, have written more lines of proprietary (read, messy startup) code
+than I care to admit, and hope to jumpstart my contributions to more liberated technology with this notebook.
 
-Amethyst was primarily created as a theme for my [course notes](https://notes.bencuan.me).
 
-## Get Started
-> 📚 Step 1: [Setup your own Amethyst instance](setup/setup.md)
+This notebook is built with hugo themed with amethyst. 
 
-> ✏️ Step 2: [Editing Notes in Amethyst](setup/editing.md)
+## Topics
 
-> 🔗 Step 3: [How to setup your Obsidian Vault to work with Amethyst](setup/obsidian.md)
+> [Selfhosting a public go module via a static site](topics/gomodule.md)
 
-> 👀 Step 4: [Preview Changes](setup/preview%20changes.md)
+> [A DIY Recovery Console](topics/console.md)
 
-> 🌍 Step 5: [Hosting Amethyst online!](setup/hosting.md)
 
-> 🎨 Step 6:  [Customizing Amethyst](setup/config.md)
+## Brainstorming
+
+> [A Better way to script ](topics/gomodule.md)
+
 
 Returning user? Here's how to [[setup/updating|update]] your existing Amethyst instance.
 

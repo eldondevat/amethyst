@@ -1,4 +1,4 @@
-baseURL: https://amethyst.bencuan.me
+baseURL: https://eldondev.com
 
 # Book configuration
 disablePathToLower: true
@@ -24,14 +24,14 @@ menu:
   #     url: "https://google.com"
   #     weight: 10
   after:
-    - name: "Github"
-      url: "https://github.com/64bitpandas/amethyst"
+    - name: "git"
+      url: "https://github.com/eldondevat"
       weight: 10
 
 params:
 
-  name: Ben Cuan
-  title: 📓 Amethyst
+  name: Eldon Stegall
+  title: Picking at the Internet
 
   # OPTIONAL: custom favicon location
   # favicon: 'location/to/favicon.png'
@@ -70,25 +70,25 @@ params:
   enableMermaid: true
 
   # Link to your Github repo
-  GitHubLink: https://github.com/64bitpandas/amethyst
+  GitHubLink: https://github.com/eldondevat/amethyst
 
   # Search (WIP)
-  search:
-    enableSemanticSearch: false
-    operandApiKey: "REPLACE-WITH-YOUR-OPERAND-API-KEY"
-    operandIndexId: "REPLACE-WITH-YOUR-OPERAND-INDEX-ID"
+#  search:
+#    enableSemanticSearch: false
+#    operandApiKey: "REPLACE-WITH-YOUR-OPERAND-API-KEY"
+#    operandIndexId: "REPLACE-WITH-YOUR-OPERAND-INDEX-ID"
 
   # Site description and title
   description:
-    Notes, hosted by bencuan
+    Notes, hosted by eldondev
 
   
   # Footer links
   links:
-    - link_name: Website
-      link: https://bencuan.me
-    - link_name: Blog
-      link: https://blog.bencuan.me
+  #  - link_name: Website
+  #    link: https://bencuan.me
+  #  - link_name: Blog
+  #    link: https://blog.bencuan.me
 
   # (Optional, default true) Controls table of contents visibility on right side of pages.
   # Start and end levels can be controlled with markup.tableOfContents setting.
@@ -110,7 +110,7 @@ params:
 
   # Set source repository location.
   # Used for 'Last Modified' and 'Edit this page' links.
-  BookRepo: https://github.com/64bitpandas/amethyst
+  BookRepo: https://github.com/eldondevat/amethyst
 
   # (Optional, default 'commit') Specifies commit portion of the link to the page's last modified
   # commit hash for 'doc' page type.
@@ -122,7 +122,7 @@ params:
   # Enable "Edit this page" links for 'doc' page type.
   # Disabled by default. Uncomment to enable. Requires 'BookRepo' param.
   # Edit path must point to root directory of repo.
-  BookEditPath: edit/main/exampleSite
+  #BookEditPath: edit/main/exampleSite
 
   # Configure the date format used on the pages
   # - In git information
@@ -134,11 +134,11 @@ params:
   # By default partals/docs/comments.html includes Disqus template
   # See https://gohugo.io/content-management/comments/#configure-disqus
   # Can be overwritten by same param in page frontmatter
-  BookComments: true
+  #BookComments: true
 
   # /!\ This is an experimental feature, might be removed or changed at any time
   # (Optional, experimental, default false) Enables a drop-down menu for translations only if a translation is present.
-  BookTranslatedOnly: false
+  #BookTranslatedOnly: false
 
   # Don't change this
   enableSPA: false
